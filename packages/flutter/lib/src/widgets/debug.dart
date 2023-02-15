@@ -297,7 +297,7 @@ bool debugCheckHasMediaQuery(BuildContext context) {
       throw FlutterError.fromParts(<DiagnosticsNode>[
         ErrorSummary('No MediaQuery widget ancestor found.'),
         ErrorDescription('${context.widget.runtimeType} widgets require a MediaQuery widget ancestor.'),
-        context.describeWidget('The specific widget that could not find a MediaQuery ancestor was'),
+        context.describeWidget('The specific widget that could   not find a MediaQuery ancestor was'),
         context.describeOwnershipChain('The ownership chain for the affected widget is'),
         ErrorHint(
           'No MediaQuery ancestor could be found starting from the context '
